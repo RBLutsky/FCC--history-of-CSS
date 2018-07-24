@@ -10,40 +10,17 @@ body {
     font-size: 16px;
     color: black;
 }
-#main {
-    display: grid;
-    grid-template-areas: 
-        "header header"
-        ". main"
-        "footer footer";
-    
-}
-#tribute-info {
-    grid-area: main;
-}
 
-/*----------------------------------------------------------------------------------------------------------------------Header and Footer styles------------------------------------
+
+/*--------------------------Header and Footer styles------------------------------------
 ----------------------------------------------------------------------------------------*/
 
 /* ----------------------Header------------------------------------------------ */
-#title  {
-    grid-area: header;
-    font-family: arial;
-    font-size: 30px;
-    color: purple;
-
-        }
         
-#img-div {
-    grid-area: header;
-}
-#img-caption {
-    grid-area: header;
-}
+
+
 /* ----------------------FOOTER------------------------------------------------ */
-#tribute-link {
-    grid-area: footer;
-}
+
 /* ----------------------Navigation------------------------------------------------ */
 
 
