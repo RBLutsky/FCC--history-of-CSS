@@ -10,6 +10,9 @@ body {
     font-size: 16px;
     color: black;
 }
+#tribute-info {
+    clear: both;
+}
 
 
 /*--------------------------Header and Footer styles------------------------------------
@@ -18,14 +21,31 @@ body {
 /* ----------------------Header------------------------------------------------ */
   #title  {
     font-family: arial;
-    font-size: 30px;
-    color: purple;      
+    font-size: 3rem;
+    color: purple; 
+    float: left;  
   }
 
   #image {
       max-width: 100%;
       display: block;
       height: auto;
+      align-content: center;
+      
+  }
+
+  #img-div {
+      float: right;
+      border: 3px solid black;
+      display: block;
+      
+      
+  }
+  #img-caption {
+      background-color: grey;
+      padding: 10px;
+      text-align: center;
+      margin: 0%;
   }
 
 /* ----------------------FOOTER------------------------------------------------ */
