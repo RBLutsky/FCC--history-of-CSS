@@ -9,6 +9,7 @@ body {
 	font-family: arial;
     font-size: 16px;
     color: black;
+    margin: 15px;
 }
 #tribute-info {
     clear: both;
@@ -23,7 +24,9 @@ body {
     font-family: arial;
     font-size: 3rem;
     color: purple; 
-    float: left;  
+    float: left; 
+    padding: 50px 50px;
+    margin: 75px 10px 10px 10px;  
   }
 
   #image {
@@ -38,7 +41,8 @@ body {
       float: right;
       border: 3px solid black;
       display: block;
-      
+      margin: 20px;
+      max-width: 255px;    
       
   }
   #img-caption {
@@ -49,7 +53,10 @@ body {
   }
 
 /* ----------------------FOOTER------------------------------------------------ */
-
+footer {
+    text-align: center;
+    background-color: gainsboro;
+}
 /* ----------------------Navigation------------------------------------------------ */
 
 
